@@ -1,0 +1,456 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  20/Sep/2023  17:44:17
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Exe\920IAP_YModem.out
+#    Map file     =
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\List\920IAP_YModem.map
+#    Command line =
+#        -f
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Exe\920IAP_YModem.out.rsp
+#        (E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\common.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\crc.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\flash_if.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\gpio.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\main.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\menu.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\EWARM\startup_stm32f091xc.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_cortex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_crc.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_crc_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_dma.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_exti.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_flash.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_flash_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_gpio.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_i2c.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_i2c_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\stm32f0xx_hal_msp.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_pwr.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_pwr_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_rcc.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_rcc_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_tim.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_tim_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_uart.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver\stm32f0xx_hal_uart_ex.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\stm32f0xx_it.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\CMSIS\system_stm32f0xx.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\usart.o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core\ymodem.o
+#        --no_out_extension -o
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Exe\920IAP_YModem.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\List\920IAP_YModem.map
+#        --config E:\IarProject\920IAP_YModem\EWARM/stm32f091xc_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xbc
+  .intvec            ro code   0x800'0000    0xbc  startup_stm32f091xc.o [1]
+                             - 0x800'00bc    0xbc
+
+"P1":                                      0x2b0a
+  .text              ro code   0x800'00bc   0x698  stm32f0xx_hal_uart.o [4]
+  .text              ro code   0x800'0754    0x98  usart.o [2]
+  .text              ro code   0x800'07ec     0xc  stm32f0xx_hal.o [4]
+  .text              ro code   0x800'07f8   0x5dc  stm32f0xx_hal_rcc.o [4]
+  .text              ro code   0x800'0dd4    0x36  I32DivMod.o [6]
+  .text              ro code   0x800'0e0a    0xaa  main.o [2]
+  .text              ro code   0x800'0eb4    0x14  memset.o [6]
+  .text              ro code   0x800'0ec8   0x1d4  stm32f0xx_hal_gpio.o [4]
+  .text              ro code   0x800'109c    0x44  stm32f0xx_hal.o [4]
+  .text              ro code   0x800'10e0     0x2  IntDivZer.o [6]
+  .text              ro code   0x800'10e2     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'10e4    0x20  stm32f0xx_hal.o [4]
+  .text              ro code   0x800'1104    0x8c  gpio.o [2]
+  .text              ro code   0x800'1190    0x50  crc.o [2]
+  .text              ro code   0x800'11e0   0x114  flash_if.o [2]
+  .text              ro code   0x800'12f4   0x380  menu.o [2]
+  .text              ro code   0x800'1674   0x138  stm32f0xx_hal_rcc_ex.o [4]
+  .text              ro code   0x800'17ac    0x10  ABImemset_small.o [6]
+  .text              ro code   0x800'17bc    0x78  stm32f0xx_hal_cortex.o [4]
+  .text              ro code   0x800'1834    0x30  stm32f0xx_hal_msp.o [2]
+  .text              ro code   0x800'1864    0x7c  stm32f0xx_hal_crc.o [4]
+  .text              ro code   0x800'18e0   0x19c  stm32f0xx_hal_flash.o [4]
+  .text              ro code   0x800'1a7c   0x33c  stm32f0xx_hal_flash_ex.o [4]
+  .text              ro code   0x800'1db8   0x134  common.o [2]
+  .text              ro code   0x800'1eec   0x58c  ymodem.o [2]
+  .text              ro code   0x800'2478    0x5c  stm32f0xx_hal_crc_ex.o [4]
+  .text              ro code   0x800'24d4    0x1e  U64Shr.o [6]
+  .text              ro code   0x800'24f2     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'24f4    0x28  stm32f0xx_hal.o [4]
+  .rodata            const     0x800'251c   0x3fc  menu.o [2]
+  .rodata            const     0x800'2918    0xd0  menu.o [2]
+  .text              ro code   0x800'29e8    0x3c  zero_init3.o [6]
+  .text              ro code   0x800'2a24    0x30  copy_init3.o [6]
+  .rodata            const     0x800'2a54    0x2c  menu.o [2]
+  .text              ro code   0x800'2a80    0x28  data_init.o [6]
+  .iar.init_table    const     0x800'2aa8    0x24  - Linker created -
+  .text              ro code   0x800'2acc    0x1e  cmain.o [6]
+  .text              ro code   0x800'2aea     0x4  low_level_init.o [5]
+  .text              ro code   0x800'2aee     0x8  exit.o [5]
+  .text              ro code   0x800'2af6     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2af8     0xa  cexit.o [6]
+  .text              ro code   0x800'2b02     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b04    0x14  exit.o [7]
+  .text              ro code   0x800'2b18    0x1c  cstartup_M.o [6]
+  .text              ro code   0x800'2b34    0x14  system_stm32f0xx.o [3]
+  .text              ro code   0x800'2b48    0x10  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b58    0x10  stm32f0xx_hal.o [4]
+  .text              ro code   0x800'2b68    0x10  stm32f0xx_it.o [2]
+  Initializer bytes  const     0x800'2b78    0x10  <for P2-1>
+  .rodata            const     0x800'2b88     0x8  system_stm32f0xx.o [3]
+  .text              ro code   0x800'2b90     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b92     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b94     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b96     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b98     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b9a     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b9c     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2b9e     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2ba0     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2ba2     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2ba4     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2ba6     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2ba8     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2baa     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bac     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bae     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bb0     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bb2     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bb4     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bb6     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bb8     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bba     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bbc     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bbe     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bc0     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bc2     0x2  startup_stm32f091xc.o [1]
+  .text              ro code   0x800'2bc4     0x2  startup_stm32f091xc.o [1]
+  .rodata            const     0x800'2bc6     0x0  zero_init3.o [6]
+  .rodata            const     0x800'2bc6     0x0  copy_init3.o [6]
+                             - 0x800'2bc6  0x2b0a
+
+"P2", part 1 of 3:                           0x10
+  P2-1                        0x2000'0000    0x10  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32f0xx_hal.o [4]
+    .data            inited   0x2000'000c     0x4  system_stm32f0xx.o [3]
+                            - 0x2000'0010    0x10
+
+"P2", part 2 of 3:                          0x520
+  .bss               zero     0x2000'0010   0x408  ymodem.o [2]
+  .bss               zero     0x2000'0418    0x88  usart.o [2]
+  .bss               zero     0x2000'04a0    0x40  menu.o [2]
+  .bss               zero     0x2000'04e0    0x24  crc.o [2]
+  .bss               zero     0x2000'0504     0xc  menu.o [2]
+  .bss               zero     0x2000'0510    0x20  stm32f0xx_hal_flash.o [4]
+                            - 0x2000'0530   0x520
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0530   0x400  <Block>
+    CSTACK           uninit   0x2000'0530   0x400  <Block tail>
+                            - 0x2000'0930   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'2bc6   0x803'ffff  0x3'd43a
+  0x2000'0930  0x2000'7fff    0x76d0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x520:
+          0x2000'0010  0x520
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'2b78   0x10
+    1 destination range, total size 0x10:
+          0x2000'0000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+command line/config:
+    ---------------------------------------------------
+    Total:
+
+E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\EWARM: [1]
+    startup_stm32f091xc.o         266
+    ---------------------------------------------------
+    Total:                        266
+
+E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core: [2]
+    common.o                      308
+    crc.o                          80                36
+    flash_if.o                    276
+    gpio.o                        140
+    main.o                        170
+    menu.o                        896    1'272       76
+    stm32f0xx_hal_msp.o            48
+    stm32f0xx_it.o                 16
+    usart.o                       152               136
+    ymodem.o                    1'420             1'032
+    ---------------------------------------------------
+    Total:                      3'506    1'272    1'280
+
+E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\CMSIS: [3]
+    system_stm32f0xx.o             20       12        4
+    ---------------------------------------------------
+    Total:                         20       12        4
+
+E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver: [4]
+    stm32f0xx_hal.o               168       12       12
+    stm32f0xx_hal_cortex.o        120
+    stm32f0xx_hal_crc.o           124
+    stm32f0xx_hal_crc_ex.o         92
+    stm32f0xx_hal_flash.o         412                32
+    stm32f0xx_hal_flash_ex.o      828
+    stm32f0xx_hal_gpio.o          468
+    stm32f0xx_hal_rcc.o         1'500
+    stm32f0xx_hal_rcc_ex.o        312
+    stm32f0xx_hal_uart.o        1'688
+    ---------------------------------------------------
+    Total:                      5'712       12       44
+
+dl6M_tln.a: [5]
+    exit.o                          8
+    low_level_init.o                4
+    ---------------------------------------------------
+    Total:                         12
+
+rt6M_tl.a: [6]
+    ABImemset_small.o              16
+    I32DivMod.o                    54
+    IntDivZer.o                     2
+    U64Shr.o                       30
+    cexit.o                        10
+    cmain.o                        30
+    copy_init3.o                   48
+    cstartup_M.o                   28
+    data_init.o                    40
+    memset.o                       20
+    zero_init3.o                   60
+    ---------------------------------------------------
+    Total:                        338
+
+shb_l.a: [7]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Linker created                          36    1'024
+-------------------------------------------------------
+    Grand Total:                9'874    1'332    2'352
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'2aa8          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2acc          --   Gb  - Linker created -
+?main                    0x800'2acd         Code  Gb  cmain.o [6]
+AHBPrescTable            0x800'2b38   0x10  Data  Gb  system_stm32f0xx.o [3]
+APBPrescTable            0x800'2b88    0x8  Data  Gb  system_stm32f0xx.o [3]
+CSTACK$$Base            0x2000'0530          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0930          --   Gb  - Linker created -
+Cal_CRC16                0x800'1f13   0x24  Code  Gb  ymodem.o [2]
+Error_Handler            0x800'0eb1    0x4  Code  Gb  main.o [2]
+FLASH_If_Erase           0x800'11f3   0x32  Code  Gb  flash_if.o [2]
+FLASH_If_GetWriteProtectionStatus
+                         0x800'1273   0x24  Code  Gb  flash_if.o [2]
+FLASH_If_Init            0x800'11e1   0x12  Code  Gb  flash_if.o [2]
+FLASH_If_Write           0x800'1225   0x4e  Code  Gb  flash_if.o [2]
+FLASH_If_WriteProtectionConfig
+                         0x800'1297   0x4c  Code  Gb  flash_if.o [2]
+FLASH_MassErase          0x800'1ceb   0x1a  Code  Lc  stm32f0xx_hal_flash_ex.o [4]
+FLASH_OB_GetRDP          0x800'1d69   0x1a  Code  Lc  stm32f0xx_hal_flash_ex.o [4]
+FLASH_OB_RDP_LevelConfig
+                         0x800'1d0d   0x56  Code  Lc  stm32f0xx_hal_flash_ex.o [4]
+FLASH_PageErase          0x800'1d83   0x1c  Code  Gb  stm32f0xx_hal_flash_ex.o [4]
+FLASH_Program_HalfWord   0x800'19c3   0x16  Code  Lc  stm32f0xx_hal_flash.o [4]
+FLASH_SetErrorCode       0x800'1a2d   0x34  Code  Lc  stm32f0xx_hal_flash.o [4]
+FLASH_WaitForLastOperation
+                         0x800'19d9   0x4e  Code  Gb  stm32f0xx_hal_flash.o [4]
+FlashProtection         0x2000'050c    0x4  Data  Gb  menu.o [2]
+HAL_CRCEx_Polynomial_Set
+                         0x800'2479   0x5c  Code  Gb  stm32f0xx_hal_crc_ex.o [4]
+HAL_CRC_Init             0x800'1865   0x76  Code  Gb  stm32f0xx_hal_crc.o [4]
+HAL_CRC_MspInit          0x800'11b3   0x20  Code  Gb  crc.o [2]
+HAL_Delay                0x800'24f5   0x28  Code  Gb  stm32f0xx_hal.o [4]
+HAL_FLASHEx_Erase        0x800'1a7d   0x9a  Code  Gb  stm32f0xx_hal_flash_ex.o [4]
+HAL_FLASHEx_OBErase      0x800'1b17   0x46  Code  Gb  stm32f0xx_hal_flash_ex.o [4]
+HAL_FLASHEx_OBGetConfig
+                         0x800'1ccf   0x1c  Code  Gb  stm32f0xx_hal_flash_ex.o [4]
+HAL_FLASHEx_OBProgram    0x800'1b5d  0x172  Code  Gb  stm32f0xx_hal_flash_ex.o [4]
+HAL_FLASH_Lock           0x800'1981    0xe  Code  Gb  stm32f0xx_hal_flash.o [4]
+HAL_FLASH_OB_Launch      0x800'19ad   0x16  Code  Gb  stm32f0xx_hal_flash.o [4]
+HAL_FLASH_OB_Unlock      0x800'198f   0x1e  Code  Gb  stm32f0xx_hal_flash.o [4]
+HAL_FLASH_Program        0x800'18e1   0x82  Code  Gb  stm32f0xx_hal_flash.o [4]
+HAL_FLASH_Unlock         0x800'1963   0x1e  Code  Gb  stm32f0xx_hal_flash.o [4]
+HAL_GPIO_Init            0x800'0ec9  0x19a  Code  Gb  stm32f0xx_hal_gpio.o [4]
+HAL_GPIO_TogglePin       0x800'106f   0x10  Code  Gb  stm32f0xx_hal_gpio.o [4]
+HAL_GPIO_WritePin        0x800'1063    0xc  Code  Gb  stm32f0xx_hal_gpio.o [4]
+HAL_GetTick              0x800'07ed    0xc  Code  Gb  stm32f0xx_hal.o [4]
+HAL_IncTick              0x800'2b59   0x10  Code  Gb  stm32f0xx_hal.o [4]
+HAL_Init                 0x800'10e5   0x1a  Code  Gb  stm32f0xx_hal.o [4]
+HAL_InitTick             0x800'109d   0x44  Code  Gb  stm32f0xx_hal.o [4]
+HAL_MspInit              0x800'1835   0x30  Code  Gb  stm32f0xx_hal_msp.o [2]
+HAL_NVIC_SetPriority     0x800'17f7    0x8  Code  Gb  stm32f0xx_hal_cortex.o [4]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'1675  0x118  Code  Gb  stm32f0xx_hal_rcc_ex.o [4]
+HAL_RCC_ClockConfig      0x800'0c19  0x108  Code  Gb  stm32f0xx_hal_rcc.o [4]
+HAL_RCC_GetPCLK1Freq     0x800'0d75   0x14  Code  Gb  stm32f0xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq
+                         0x800'0d25   0x50  Code  Gb  stm32f0xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                         0x800'0db4   0x10  Data  Lc  stm32f0xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                         0x800'0dc4   0x10  Data  Lc  stm32f0xx_hal_rcc.o [4]
+HAL_RCC_OscConfig        0x800'07f9  0x412  Code  Gb  stm32f0xx_hal_rcc.o [4]
+HAL_SYSTICK_Config       0x800'17ff   0x28  Code  Gb  stm32f0xx_hal_cortex.o [4]
+HAL_UART_Init            0x800'00bd   0x56  Code  Gb  stm32f0xx_hal_uart.o [4]
+HAL_UART_MspInit         0x800'0785   0x5a  Code  Gb  usart.o [2]
+HAL_UART_Receive         0x800'0203  0x112  Code  Gb  stm32f0xx_hal_uart.o [4]
+HAL_UART_Transmit        0x800'0129   0xda  Code  Gb  stm32f0xx_hal_uart.o [4]
+HardFault_Handler        0x800'2b6b    0x2  Code  Gb  stm32f0xx_it.o [2]
+Int2Str                  0x800'1db9   0x4e  Code  Gb  common.o [2]
+JumpAddress             0x2000'0508    0x4  Data  Gb  menu.o [2]
+JumpToApplication       0x2000'0504    0x4  Data  Gb  menu.o [2]
+MX_CRC_Init              0x800'1191   0x22  Code  Gb  crc.o [2]
+MX_GPIO_Init             0x800'1105   0x8c  Code  Gb  gpio.o [2]
+MX_USART2_UART_Init      0x800'0755   0x30  Code  Gb  usart.o [2]
+Main_Menu                0x800'13c5  0x148  Code  Gb  menu.o [2]
+NMI_Handler              0x800'2b69    0x2  Code  Gb  stm32f0xx_it.o [2]
+PendSV_Handler           0x800'2b6f    0x2  Code  Gb  stm32f0xx_it.o [2]
+Region$$Table$$Base      0x800'2aa8          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'2acc          --   Gb  - Linker created -
+SVC_Handler              0x800'2b6d    0x2  Code  Gb  stm32f0xx_it.o [2]
+SerialDownload           0x800'12f5   0x88  Code  Gb  menu.o [2]
+SerialUpload             0x800'137d   0x48  Code  Gb  menu.o [2]
+Serial_PutByte           0x800'1ed3   0x10  Code  Gb  common.o [2]
+Serial_PutString         0x800'1eb5   0x1e  Code  Gb  common.o [2]
+Str2Int                  0x800'1e07   0xae  Code  Gb  common.o [2]
+SysTick_Handler          0x800'2b71    0x8  Code  Gb  stm32f0xx_it.o [2]
+SystemClock_Config       0x800'0e35   0x7c  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f0xx.o [3]
+SystemInit               0x800'2b35    0x2  Code  Gb  system_stm32f0xx.o [3]
+UART_AdvFeatureConfig    0x800'0481   0xc8  Code  Gb  stm32f0xx_hal_uart.o [4]
+UART_CheckIdleState      0x800'0561   0xae  Code  Gb  stm32f0xx_hal_uart.o [4]
+UART_EndRxTransfer       0x800'06f1   0x5e  Code  Lc  stm32f0xx_hal_uart.o [4]
+UART_SetConfig           0x800'0319  0x166  Code  Gb  stm32f0xx_hal_uart.o [4]
+UART_WaitOnFlagUntilTimeout
+                         0x800'0635   0x98  Code  Gb  stm32f0xx_hal_uart.o [4]
+UpdateCRC16              0x800'1eed   0x26  Code  Gb  ymodem.o [2]
+Ymodem_Receive           0x800'1f37  0x1f6  Code  Gb  ymodem.o [2]
+Ymodem_Transmit          0x800'2149  0x320  Code  Gb  ymodem.o [2]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'7fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__NVIC_SetPriority       0x800'17bd   0x3a  Code  Lc  stm32f0xx_hal_cortex.o [4]
+__aeabi_idiv0            0x800'10e1         Code  Gb  IntDivZer.o [6]
+__aeabi_llsr             0x800'24d5         Code  Gb  U64Shr.o [6]
+__cmain                  0x800'2acd         Code  Gb  cmain.o [6]
+__exit                   0x800'2b05   0x14  Code  Gb  exit.o [7]
+__iar_copy_init3         0x800'2a25   0x30  Code  Gb  copy_init3.o [6]
+__iar_data_init3         0x800'2a81   0x28  Code  Gb  data_init.o [6]
+__iar_program_start      0x800'2b19         Code  Gb  cstartup_M.o [6]
+__iar_small_Memset4_word
+                         0x800'17b1         Code  Gb  ABImemset_small.o [6]
+__iar_small_Memset_word
+                         0x800'17b1         Code  Gb  ABImemset_small.o [6]
+__iar_small_memclr       0x800'17ad         Code  Gb  ABImemset_small.o [6]
+__iar_small_memclr4      0x800'17ad         Code  Gb  ABImemset_small.o [6]
+__iar_small_memclr8      0x800'17ad         Code  Gb  ABImemset_small.o [6]
+__iar_small_memset       0x800'17b1         Code  Gb  ABImemset_small.o [6]
+__iar_small_memset4      0x800'17b1         Code  Gb  ABImemset_small.o [6]
+__iar_small_memset8      0x800'17b1         Code  Gb  ABImemset_small.o [6]
+__iar_small_uidiv        0x800'0dd5         Code  Gb  I32DivMod.o [6]
+__iar_small_uidivmod     0x800'0dd5         Code  Gb  I32DivMod.o [6]
+__iar_zero_init3         0x800'29e9   0x3c  Code  Gb  zero_init3.o [6]
+__low_level_init         0x800'2aeb    0x4  Code  Gb  low_level_init.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f091xc.o [1]
+_call_main               0x800'2ad9         Code  Gb  cmain.o [6]
+_exit                    0x800'2af9         Code  Gb  cexit.o [6]
+aFileName               0x2000'04a0   0x40  Data  Gb  menu.o [2]
+aPacketData             0x2000'0010  0x408  Data  Gb  ymodem.o [2]
+exit                     0x800'2aef    0x8  Code  Gb  exit.o [5]
+hcrc                    0x2000'04e0   0x24  Data  Gb  crc.o [2]
+huart2                  0x2000'0418   0x88  Data  Gb  usart.o [2]
+main                     0x800'0e0b   0x2a  Code  Gb  main.o [2]
+memset                   0x800'0eb5   0x14  Code  Gb  memset.o [6]
+pFlash                  0x2000'0510   0x20  Data  Gb  stm32f0xx_hal_flash.o [4]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32f0xx_hal.o [4]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f0xx_hal.o [4]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f0xx_hal.o [4]
+
+
+[1] = E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\EWARM
+[2] = E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Application\User\Core
+[3] = E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\CMSIS
+[4] = E:\IarProject\920IAP_YModem\EWARM\920IAP_YModem\Obj\Drivers\STM32F0xx_HAL_Driver
+[5] = dl6M_tln.a
+[6] = rt6M_tl.a
+[7] = shb_l.a
+
+  9'874 bytes of readonly  code memory
+  1'332 bytes of readonly  data memory
+  2'352 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
