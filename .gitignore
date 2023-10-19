@@ -1,0 +1,15 @@
+
+*.json
+*.dep
+*.dep
+*.pbd
+EWARM/920IAP_YModem.dep
+EWARM/settings/Project.wsdt
+EWARM/920IAP_YModem/BrowseInfo/Application/User/Core/main.pbi.dep
+EWARM/920IAP_YModem/BrowseInfo/Application/User/Core/main.pbi
+EWARM/920IAP_YModem/BrowseInfo/.ninja_log
+*.pbd
+*.browse
+*.pbi
+*.dep
+EWARM/settings/Project.wsdt
