@@ -96,7 +96,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   if(1)
   {
-    FLASH_If_Init();
+    FLASH_If_Init();//初始化
     Main_Menu ();
   }
 //  else
